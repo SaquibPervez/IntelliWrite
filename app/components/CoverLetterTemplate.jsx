@@ -48,6 +48,7 @@ export default function CoverLetterTemplate({ text }) {
   reverseOrder={false}
 />
 <div className="my-5 flex gap-3 flex-wrap">
+  <span className="text-red-500">Disclaimer: This is AI generated content. Please review carefully before use.</span>
         <button
           onClick={handleDownloadPdf}
           className="px-4 py-2 rounded-lg bg-linear-to-r from-cyan-500 to-purple-600 text-white hover:from-cyan-400 hover:to-purple-500 transition"
